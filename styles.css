@@ -1,0 +1,154 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #2b3b2f; /* deep green */
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #1f2b22;
+  color: #f5c518; /* yellow/gold */
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #354d3b;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #f5c518;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.cta-btn {
+  background-color: #f5c518;
+  color: #2b3b2f;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e0b000;
+}
+
+/* Services Section */
+.services {
+  padding: 2rem 1rem;
+}
+
+.services h3 {
+  text-align: center;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.service-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.service-card {
+  background-color: #3e5542;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background-color: #4e694f;
+}
+
+/* About Section */
+.about {
+  background-color: #1f2b22;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.about h3 {
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+/* Gallery */
+.gallery {
+  padding: 2rem 1rem;
+}
+
+.gallery h3 {
+  text-align: center;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.gallery-placeholder {
+  background-color: #3e5542;
+  padding: 3rem 0;
+  text-align: center;
+  border-radius: 5px;
+  color: #ddd;
+  font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+  padding: 2rem 1rem;
+  background-color: #354d3b;
+  text-align: center;
+}
+
+.contact h3 {
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.contact a {
+  color: #f5c518;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  background-color: #1f2b22;
+  color: #888;
+}
